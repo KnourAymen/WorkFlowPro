@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_cyber"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/thanks_signing_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/Thanks_signing_up"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_22ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/business_type_into_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:gravity="center"
+            android:text="@string/customize_workflow"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp" />
+
+        <View
+            android:id="@+id/horizontal_line_view"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@color/gray" />
+
+
+        <GridView
+            android:id="@+id/business_type_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:numColumns="2"
+
+            android:verticalSpacing="@dimen/_8sdp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/skip_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/_16sdp"
+        android:elevation="@dimen/_24sdp"
+        android:padding="@dimen/_24sdp"
+        android:src="@drawable/ic_skip_next"
+        app:backgroundTint="@color/gold"
+        app:tint="@color/white" />
+
+</FrameLayout>
+

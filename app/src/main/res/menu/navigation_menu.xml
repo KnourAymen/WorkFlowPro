@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/work_orders"
+        android:icon="@drawable/work_orders"
+        android:title="@string/work_orders" />
+
+    <item
+        android:id="@+id/requests"
+        android:icon="@drawable/request"
+        android:title="@string/requests" />
+
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/location"
+        android:title="@string/locations" />
+
+    <item
+        android:id="@+id/assets"
+        android:icon="@drawable/assets"
+        android:title="@string/assets" />
+
+    <item
+        android:id="@+id/parts_inventory"
+        android:icon="@drawable/inventory"
+        android:title="@string/part_inventory" />
+
+
+    <item
+        android:id="@+id/people_teams"
+        android:icon="@drawable/people"
+        android:title="@string/people_teams" />
+
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/contact_us"
+        android:icon="@drawable/contact"
+        android:title="@string/contact_us" />
+</menu>

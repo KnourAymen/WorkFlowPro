@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/requests">
+
+    <fragment
+        android:id="@+id/location"
+        android:name="com.example.workflowpro.LocationFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.workflowpro.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/work_orders"
+        android:name="com.example.workflowpro.WorkOrdersFragment"
+        android:label="Work Orders"
+        tools:layout="@layout/fragment_work_orders" />
+
+    <fragment
+        android:id="@+id/requests"
+        android:name="com.example.workflowpro.RequestsFragment"
+        android:label="Requests"
+        tools:layout="@layout/fragment_requests" />
+    <fragment
+        android:id="@+id/assets"
+        android:name="com.example.workflowpro.AssetsFragment"
+        android:label="Assets"
+        tools:layout="@layout/fragment_assets" />
+    <fragment
+        android:id="@+id/parts_inventory"
+        android:name="com.example.workflowpro.PartsInventoryFragment"
+        android:label="Parts and Inventory"
+        tools:layout="@layout/fragment_parts_inventory" />
+
+    <fragment
+        android:id="@+id/people_teams"
+        android:name="com.example.workflowpro.PeopleTeamsFragment"
+        android:label="People and Teams"
+        tools:layout="@layout/fragment_people_teams" />
+
+    <fragment
+        android:id="@+id/contact_us"
+        android:name="com.example.workflowpro.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us" />
+</navigation>

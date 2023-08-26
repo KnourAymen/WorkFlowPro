@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">WorkFlowPro</string>
+    <string name="big_title">WorkFlowPro</string>
+    <string name="sub_title">Your Trusted Partner for Efficient Workflows</string>
+    <string name="intro_title">Title</string>
+    <string name="intro_description">Description</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+
+    <!-- ####################################################################################### -->
+
+    <string name="company_title">DATATREND\nEngineering</string>
+    <string name="company_description">DataTrend Engineering is a leading company specializing in accelerating digital transmission and providing comprehensive solutions. With a focus on innovation and cutting-edge technology, DataTrend Engineering is dedicated to transforming businesses through advanced digital solutions.</string>
+    <string name="expert_team_title">Expert Team</string>
+    <string name="team_description">The team at DataTrend Engineering is a group of highly skilled professionals dedicated to driving innovation and delivering outstanding results. Comprised of talented engineers, developers, technicians, and experts in their respective fields.</string>
+    <string name="help_desk_title">Help Desk</string>
+    <string name="help_desk_description">The Help Desk at DataTrend Engineering is a reliable and efficient support system designed to assist clients with their technical needs. Staffed by a team of knowledgeable professionals.</string>
+    <string name="our_services_title">Our Services</string>
+    <string name="our_services_description">DataTrend Engineering offers a comprehensive range of services to meet the diverse needs of our clients. From software development to hardware solutions, repair services, and technical support.</string>
+    <string name="easy_payment_title">Easy Payment</string>
+    <string name="easy_payment_description">We provide multiple payment methods, ensuring flexibility and convenience for our customers. Our goal is to make the payment experience seamless and stress-free, allowing you to focus on what matters most—your business.</string>
+    <string name="workFlowPro_title">WorkFlowPro</string>
+    <string name="workFlowPro_description">WorkFlowPro makes it easy to maintain your business.</string>
+    <string name="streamline_your_workflow_title">Streamline your workflow</string>
+    <string name="streamline_your_workflow_description">Create work orders on-the-go and communicate with your team using built-in messaging.</string>
+    <string name="stay_informed_and_up_to_date_title">Stay informed and\nup-to-date</string>
+    <string name="stay_informed_and_up_to_date_description">Receive real-time notifications for work order progress and status update.</string>
+    <string name="reduce_downtime_gain_insights_title">Reduce downtime, \ngain insights</string>
+    <string name="reduce_downtime_gain_insights_description">View detailed reports to monitor costs and keep things running smoothly.</string>
+
+    <!-- ####################################################################################### -->
+
+    <string name="Thanks_signing_up">Thanks for signing up !</string>
+    <string name="customize_workflow">Next, customize your workflow by selecting your business type</string>
+    <string name="facility_building">Facility/Building</string>
+    <string name="property_management">Property\nManagement</string>
+    <string name="manufacturing">Manufacturing</string>
+    <string name="fleet">Fleet</string>
+    <string name="mosque">Mosque</string>
+    <string name="school">School</string>
+    <string name="small_medium_business">Small/Medium\nBusiness</string>
+    <string name="other_general_maintenance">Other/General\nMaintenance</string>
+
+    <!-- ####################################################################################### -->
+
+    <string name="sign_up_note">*To join an existing WorkFlowPro team, do not sign up yet! Please have the team administrator log in to WorkFlowPro and send you an invite.</string>
+
+    <!-- ####################################################################################### -->
+
+    <string name="work_orders">Work Orders</string>
+    <string name="requests">Requests</string>
+    <string name="locations">Locations</string>
+    <string name="assets">Assets</string>
+    <string name="part_inventory">Parts &amp; Inventory</string>
+    <string name="people_teams">People &amp; Teams</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+
+    <!-- ####################################################################################### -->
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="image">Image</string>
+    <string name="worker">Worker</string>
+    <string name="location">Location</string>
+    <string name="asset">Asset</string>
+    <string name="due_date">Due Date</string>
+    <string name="category">Category</string>
+    <string name="team">Team</string>
+    <string name="select_image">select Image</string>
+    <string name="select_workers">Select Workers</string>
+    <string name="select_location">Select Location</string>
+    <string name="select_asset">Select Asset</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_team">Select Team</string>
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cyber"
+        android:orientation="vertical"
+        tools:context=".SignUpActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custom_edit_text"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:hint="Select civility"
+                    app:startIconDrawable="@drawable/ic_gender"
+                    app:startIconTint="@color/gold">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sign_up_civility_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawablePadding="-8dp"
+                        android:inputType="none"
+                        android:padding="8dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <EditText
+                    android:id="@+id/sign_up_email_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/ic_email"
+                    android:drawablePadding="8dp"
+                    android:hint="Work Email *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/sign_up_password_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:drawablePadding="8dp"
+                    android:hint="Password *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/sign_up_first_name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/name_card"
+                    android:drawablePadding="8dp"
+                    android:hint="First Name *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/sign_up_last_name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/name_card"
+                    android:drawablePadding="8dp"
+                    android:hint="Last Name *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+
+                <com.example.workflowpro.CustomEditText
+                    android:id="@+id/sign_up_birth_day_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawablePadding="8dp"
+                    android:enabled="true"
+                    android:hint="Birth Day *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/sign_up_address_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/ic_place"
+                    android:drawablePadding="8dp"
+                    android:enabled="true"
+                    android:hint="Address *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/country_code_picker"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        app:ccpDialog_keyboardAutoPopup="false"
+                        app:ccp_arrowSize="16sp"
+                        app:ccp_autoDetectCountry="true"
+                        app:ccp_autoFormatNumber="true"
+                        app:ccp_showArrow="true"
+                        app:ccp_showFlag="true"
+                        app:ccp_showFullName="false"
+                        app:ccp_showNameCode="false"
+                        app:ccp_showPhoneCode="true"
+                        app:ccp_textSize="16sp" />
+
+                    <com.example.workflowpro.CustomEditText
+                        android:id="@+id/phone_number_edit_text"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@drawable/custom_edit_text"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:drawablePadding="8dp"
+                        android:hint="Phone Number"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:padding="8dp"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/sign_up_company_name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/office_building"
+                    android:drawablePadding="8dp"
+                    android:hint="Company Name *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/sign_up_title_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:drawableStart="@drawable/title"
+                    android:drawablePadding="8dp"
+                    android:hint="Title *"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:hint="Select user type"
+                    app:startIconDrawable="@drawable/ic_person"
+                    app:startIconTint="@color/gold">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sign_up_user_types_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawablePadding="-8dp"
+                        android:inputType="none"
+                        android:padding="8dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/sign_up_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/gold"
+                    android:text="Sign Up"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/register_important_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/sign_up_note"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/login_redirect_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:text="Already have an account? Log In"
+                    android:textColor="@color/gold"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
